@@ -29,34 +29,43 @@ public class NorwayMotherOfAllFlags {
 	}
 
 	public static void france() {
-		
-		// TODO
+		StdDraw.setXscale(8, 11);
+		StdDraw.setYscale(0, 2);
+		mother();
 	}
 
 	public static void indonesia() {
-		
-		// TODO
+		StdDraw.setXscale(0, 3);
+		StdDraw.setYscale(9, 11);
+		mother();
 	}
 
 	public static void netherlands() {
-		
+
 		// TODO
 	}
 
 	public static void poland() {
-		
-		// TODO
+		StdDraw.setXscale(0, 3);
+		StdDraw.setYscale(5, 7);
+		mother();
 	}
 
 	public static void thailand() {
-		
-		// TODO
+		StdDraw.setXscale(0, 4);
+		StdDraw.setYscale(5, 11);
+		mother();
 	}
 
 	public static void finland() {
-		
-		// TODO
+		StdDraw.setXscale(0, 22);
+		StdDraw.setYscale(0, 16);
+		StdDraw.clear();
+		StdDraw.setPenColor(0, 0, 127);
+		StdDraw.filledRectangle(11, 8, 11, 1);
+		StdDraw.filledRectangle(8, 8, 1, 8);
 	}
+		
 
 	public static void main(String[] args) {
 		SwingUtilities.invokeLater(() -> {
